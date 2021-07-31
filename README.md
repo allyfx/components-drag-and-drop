@@ -13,7 +13,7 @@ In the future at my job we'll need to create a resume page that works like that.
 ## 🖥 Setup
 - Clone the repository
 - Run `npm install` to install dependecies
-- Run `npm run dev` to run the project
+- Run `npm run start` to run the project
 
 ## 🚧 Built With
 - ReactJS
