@@ -1,6 +1,28 @@
-img {
-  width: 100%;
-  border-radius: 4px;
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container h1 {
+  margin-bottom: 8px;
+}
+
+.home-container h1, small {
+  font-family: 'Courier New', monospace;
+  color: #f5f5f5;
+}
+
+/*
+  Masonry grid feature
+*/
+
+.images-container {
+  margin-top: 20px;
+
+  column-count: 5;
+  column-gap: 10px;
 }
 
 figure {
@@ -10,7 +32,8 @@ figure {
   break-inside: avoid;
 }
 
-.home-container {
-  column-count: 5;
-  column-gap: 10px;
+
+img {
+  width: 100%;
+  border-radius: 4px;
 }
