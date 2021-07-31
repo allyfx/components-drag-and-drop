@@ -1,0 +1,16 @@
+img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.home-container {
+  column-count: 5;
+  column-gap: 10px;
+}
